@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-image: url('./images/pexels-pixabay-163143.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro {
+    max-width: 670px;
+    padding: 2% 1% 2% 1%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 50px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.intro h1 {
+    margin-bottom: 6%;
+}
+
+.intro p {
+    font-size: 30px;
+}
+
+.navbar {
+    max-width: 670px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 35px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0;
+    width: 25%;
+    border-right: 3px solid white;
+    list-style: none;
+    padding: 2% 0 2% 0;
+}
+
+.aboutlink {
+    border-left: 3px solid white;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about {
+    max-width: 750px;
+    color: white;
+    margin: auto;
+    text-align: left;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.about1, .about2, .about3, .about4 {
+    padding: 1% 2% 1% 2%;
+    margin-bottom: 20px;
+    border-top: 3px solid white;
+}
