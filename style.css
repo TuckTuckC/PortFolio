@@ -1,3 +1,14 @@
+:root {
+    --color-secondary-dark: #705349;
+    --color-tertiary-dark: #92adbe;
+}
+
+/* #424C59
+#8599A6
+#6AA673
+#658C6B
+#705349 */
+
 * {
     padding: 0;
     margin: 0;
