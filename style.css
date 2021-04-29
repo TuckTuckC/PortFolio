@@ -71,7 +71,9 @@ body {
 }
 
 .about {
-    background-color: rgb(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-rows: 3fr 3fr;
+    grid-gap: 2vh;
     height: 100vh;
     max-width: 60%;
     color: white;
@@ -88,6 +90,7 @@ body {
 .about1, .about2, .about3, .about4 {
     padding: 3% 5% 3% 5%;
     border-bottom: 0.2vw solid white;
+    background-color: rgb(0, 0, 0, 0.4);
 }
 
 .aboutDetails {
@@ -109,4 +112,12 @@ body {
 .skill {
     padding: 3% 5% 3% 5%;
     border: 0.2vw solid white;
+}
+
+
+
+@keyframes name {
+    0% {
+        
+    }
 }
