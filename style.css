@@ -16,20 +16,39 @@
 
 header {
     position: fixed;
+    padding: 0;
     top: 0;
     left: 15vw;
     width: 70vw;
+    background-color: red;
 }
 
-header.sticky > .intro > h1 {
+/* -----------------------------header animated-------------------------------- */
+
+header.sticky {
+    margin: 0;
+    width: 100vw;
+    height: 20vh;
+    top: -1.5vw;
+    left: 0;
+}
+
+header.sticky > .intro {
+    margin: 0;
     top: 0;
     left: 0;
     font-size: 1.5vw;
 }
 
+header.sticky > .intro > h1 {
+    width: fit-content;
+}
+
 header.sticky > .intro > p {
     visibility: hidden;
 }
+
+/* -----------------------------header animated-------------------------------- */
 
 body {
     padding: 0;
@@ -52,14 +71,6 @@ body {
     font-size: 2vw;
     border-top: 0.2vw solid white;
     border-bottom: 0.16vw solid white;
-}
-
-.intro h1 {
-    margin-bottom: 6%;
-
-    animation: name 2s;
-    animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -1s)
 }
 
 .intro p {

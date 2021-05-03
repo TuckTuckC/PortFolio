@@ -8,7 +8,7 @@ $(window).scroll(function() {
     var x = $(this).scrollTop();
     if(x > scrollVal) {
         $('header').addClass('sticky');
-    } else {
+    } else if(x == 0) {
         $('header').removeClass('sticky');
     }
     scrollVal = x;
