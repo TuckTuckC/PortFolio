@@ -20,17 +20,20 @@ header {
     top: 0;
     left: 15vw;
     width: 70vw;
-    background-color: red;
+    transition: all ease 0.5s;
 }
 
 /* -----------------------------header animated-------------------------------- */
 
 header.sticky {
-    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 0.16vw solid white;
+    background-color: #8599a6;
     margin: 0;
-    padding: 0;
+    padding: 0.5vw 1vw 0.5vw 1vw;
     width: 100vw;
-    height: 20vh;
+    height: 8vh;
     top: 0;
     left: 0;
 }
@@ -48,7 +51,6 @@ header.sticky > .intro {
 header.sticky > .intro > h1 {
     margin: 0;
     padding: 0;
-    width: fit-content;
 }
 
 header.sticky > .intro > p {
@@ -56,6 +58,16 @@ header.sticky > .intro > p {
 }
 
 header.sticky > .navbar {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+header.sticky > .navbar > ul {
+    width: 40vw;
+    height: 8vh;
+    margin: 0;
+    padding: 0;
     right: 0;
 }
 
@@ -139,7 +151,7 @@ body {
 .about1, .about2, .about3, .about4 {
     padding: 3% 5% 3% 5%;
     border-bottom: 0.2vw solid white;
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: #705349bd;
 }
 
 .aboutDetails {
@@ -156,7 +168,7 @@ body {
     text-align: center;
     margin-top: 2%;
     font-size: 1vw;
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: #705349bd;
 }
 
 .skill {
