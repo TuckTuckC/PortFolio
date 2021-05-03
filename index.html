@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tucker Craig</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div>
-        <div class="main">
+        <header class="main">
             <div class="intro">
                 <h1>Tucker Craig</h1>
                 <p>Full Stack Web Developer</p>
@@ -22,18 +23,18 @@
                     <li>Contact</li>
                 </ul>
             </div>
-        </div>
+        </header>
         <div class="about">
-            <div class="about1">
+            <div class="about1" data-aos="fade-right">
                 <h1>What Got Me Into Software Engineering?</h1>
                 <p>I was in college for health and fittness science for one semester before I started having second thoughts. I have always been very interested in computers and why things worked the way they did, so I looked into it and started coding. I fell in love, and  at the point I wanted to take my skills to the next step. So I enrolled in a coding bootcamp, General Assembly.</p>
             </div>
-            <div class="about2">
+            <div class="about2" data-aos="fade-right">
                 <h1>Education</h1>
                 <p>I studied at the coding bootcamp General Assembly. I took the 6-month Software Engineering Immersive course for full-stack development. This course used GitHub for every homework assignment and project we submitted. We did a lot of pair programming, group projects and also solo projects.</p>
             </div>
         </div>
-        <div class="skills">
+        <div class="skills" data-aos="fade-right">
             <div class="skill">HTML</div>
             <div class="skill">CSS</div>
             <div class="skill">Bootstrap</div>
@@ -45,5 +46,15 @@
             <div class="skill">Django</div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous">
+    </script>
+    <script src="./script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
