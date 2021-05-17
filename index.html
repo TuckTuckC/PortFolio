@@ -46,13 +46,23 @@
             <div class="skill">JQuery</div>
             <div class="skill">React</div>
             <div class="skill">Python</div>
-            <div class="skill">Django</div>
+            <div class="skill django">Django</div>
         </div>
         <div class="projects" data-aos="fade-right">
             <h1 class="skillsTitle">Projects</h1>
             <div class="project">
                 <img src="./images/Carsio.png" class="carsio">
             </div>
+        </div>
+        <div class="contact" data-aos="fade-right">
+            <h1>CONTACT ME</h1>
+            <form class="contactForm" method="POST" id="my-form" action="https://formspree.io/f/xyylenlr">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                <input name="email" type="email" class="form-control" placeholder="Email" required>
+                <textarea name="message" class="form-control" placeholder="Message" rows="10"></textarea>
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                <div id="status"></div>
+            </form>
         </div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

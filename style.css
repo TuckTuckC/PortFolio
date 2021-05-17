@@ -132,6 +132,10 @@ body {
     height: 83vh;
 }
 
+.main, .about > div, .skills, .projects, .contact {
+    border-radius: 1vw;
+}
+
 .about {
     display: grid;
     grid-template-rows: 3fr 3fr;
@@ -151,7 +155,6 @@ body {
 
 .about1, .about2, .about3, .about4 {
     padding: 3% 5% 3% 5%;
-    border-bottom: 0.2vw solid white;
     background-color: #705349bd;
 }
 
@@ -161,15 +164,16 @@ body {
 
 .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0.5vw;
-    max-width: 60%;
+    max-width: 56%;
     color: white;
     margin: auto;
     text-align: center;
     margin-top: 2%;
     font-size: 1vw;
     background-color: #705349bd;
+    padding: 2vw
 }
 
 .skill {
@@ -178,20 +182,21 @@ body {
 }
 
 .skillsTitle {
-    grid-column: 1/5;
+    grid-column: 1/4;
 }
 
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0.5vw;
-    max-width: 60%;
+    max-width: 56%;
     color: white;
     margin: auto;
     text-align: center;
     margin-top: 2%;
     font-size: 1vw;
     background-color: #705349bd;
+    padding: 2vw;
 }
 
 .project {
@@ -203,4 +208,45 @@ body {
 .carsio {
     max-width: 15vw;
     border-radius: 100%;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5vw;
+    max-width: 60%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1vw;
+    background-color: #705349bd;
+}
+
+.contactForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5vw;
+    max-width: 60%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1vw;
+}
+
+.submit {
+    background-color: #92adbe;
+    margin: 0 auto;
+}
+
+.form-control {
+    padding: 3vh;
+    width: 30vw;
+    font-size: 1.5vw;
+    border-radius: 20px;
+}
+
+#status {
+    font-size: 2vw;
 }
