@@ -45,3 +45,29 @@ $('.carsioProject').click(function() {
 $('.close').click(function() {
     $('.projectPopUp').css('visibility', 'hidden')
 })
+
+// Navigation Clicks
+
+$(".aboutlink").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".about").offset().top - 150},
+        'slow');
+});
+
+$(".skillslink").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".skills").offset().top - 150},
+        'slow');
+});
+
+$(".projectslink").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".projects").offset().top - 150},
+        'slow');
+});
+
+$(".contactlink").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".contact").offset().top - 150},
+        'slow');
+});

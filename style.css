@@ -117,6 +117,7 @@ body {
     border-right: 0.2vw solid white;
     list-style: none;
     padding: 2% 0 2% 0;
+    cursor: pointer;
 }
 
 .aboutlink {
