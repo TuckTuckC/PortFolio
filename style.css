@@ -203,6 +203,7 @@ body {
     width: 15vw;
     padding: 3% 5% 3% 5%;
     border: 0.2vw solid white;
+    cursor: pointer;
 }
 
 .carsio {
@@ -290,12 +291,25 @@ body {
     font-size: 3vw;
     height: fit-content;
     border-bottom: 0.4vh solid white;
+    margin-bottom: 2vh;
 }
 
 .projectPopUp > img {
     grid-column: 2/3;
     grid-row: 2/4;
     width: 100%;
+}
+
+.close {
+    font-size: 2vw;
+    color: white;
+    background-color: #9dbccf;
+    width: fit-content;
+    padding: 1vh;
+    border-radius: 10px;
+    border: 0.3vh solid white;
+    margin-top: 2vh;
+    cursor: pointer;
 }
 
 /* Project Pop Ups END */

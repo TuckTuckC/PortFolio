@@ -38,3 +38,10 @@ var form = document.getElementById("my-form");
 
 
 // Project Pop Ups
+$('.carsioProject').click(function() {
+    $('.carsioPopUp').css('visibility', 'visible');
+});
+
+$('.close').click(function() {
+    $('.projectPopUp').css('visibility', 'hidden')
+})
