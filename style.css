@@ -132,7 +132,7 @@ body {
     height: 83vh;
 }
 
-.main, .about > div, .skills, .projects, .contact {
+.about > div, .skills, .projects, .contact {
     border-radius: 1vw;
 }
 
