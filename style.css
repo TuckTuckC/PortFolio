@@ -12,6 +12,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 header {
@@ -176,13 +177,30 @@ body {
     border: 0.2vw solid white;
 }
 
+.skillsTitle {
+    grid-column: 1/5;
+}
 
-/* Animation for Tucker Craig */
-@keyframes name {
-    100% {
-        position: absolute;
-        top: 0;
-        left: 0;
-        font-size: 1.5vw;
-    }
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5vw;
+    max-width: 60%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1vw;
+    background-color: #705349bd;
+}
+
+.project {
+    width: 15vw;
+    padding: 3% 5% 3% 5%;
+    border: 0.2vw solid white;
+}
+
+.carsio {
+    max-width: 15vw;
+    border-radius: 100%;
 }
