@@ -250,3 +250,52 @@ body {
 #status {
     font-size: 2vw;
 }
+
+/* Project Pop Ups */
+
+.projectPopUp {
+    padding: 2.5vh;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: #92adbe;
+    visibility: hidden;
+}
+
+.deployLink, .repoLink {
+    grid-column: 1/2;
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.4vh solid white;
+    height: fit-content;
+    font-size: 2.5vw;
+    width: fit-content;
+}
+
+.aboutProject {
+    grid-column: 1/3;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.projectPopUp > h1 {
+    grid-column: 1/3;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    height: fit-content;
+    border-bottom: 0.4vh solid white;
+}
+
+.projectPopUp > img {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    width: 100%;
+}
+
+/* Project Pop Ups END */
